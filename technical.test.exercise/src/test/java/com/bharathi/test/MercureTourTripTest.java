@@ -21,6 +21,7 @@ public class MercureTourTripTest {
 	@BeforeClass
 	public static void setUp() {
 		BrowserFactory.getInstance().getBrowser("CHROME");
+		System.out.println("hello srikanth");
 	}
 
 	@AfterClass
